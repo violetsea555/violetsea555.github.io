@@ -1,6 +1,6 @@
 import type { NextConfig } from "next";
 
-const repoName = "your-repo-name"; // omit if using a yourusername.github.io repo
+const repoName = "portfolio"; // omit if using a yourusername.github.io repo
 
 const nextConfig: NextConfig = {
   output: "export",
