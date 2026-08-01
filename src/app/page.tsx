@@ -1,22 +1,21 @@
 import Image from "next/image";
 
-import townBg from "@/assets/scene/portfolio_town_bg_01.png";
-import deck from "@/assets/scene/deck.png";
-import water from "@/assets/scene/water1.png";
-import lighthouse from "@/assets/buildings/lighthouse.png";
-import lighthouseText from "@/assets/buildings/lighthouse-text.png";
-import resumeResort from "@/assets/buildings/resume-resort.png";
-import resumeResortHitmask from "@/assets/buildings/resume-resort-hitmask.png";
-import resumeResortSmoke from "@/assets/buildings/resume-resort-smoke.png";
-import resumeResortLights from "@/assets/buildings/resume-resort-light_3.png";
-import gallery from "@/assets/buildings/gallery.png";
-import galleryHitmask from "@/assets/buildings/gallery-hitmask.png";
-import galleryLights from "@/assets/buildings/gallery-light.png";
-import gallerySmoke from "@/assets/buildings/gallery-smoke.png";
-import aboutMe from "@/assets/buildings/about-me.png";
-import aboutMeSmoke from "@/assets/buildings/about-me-smoke.png";
-import aboutMeLights from "@/assets/buildings/about-me-light.png";
-import aboutMeHitmask from "@/assets/buildings/about-me-hitmask.png";
+import townBg from "@/assets/scene/portfolio_town_bg_01.webp";
+import deck from "@/assets/scene/deck.webp";
+import water from "@/assets/scene/water1.webp";
+import lighthouse from "@/assets/buildings/lighthouse-plain.webp";
+import resumeResort from "@/assets/buildings/resume-resort/resume-resort.webp";
+import resumeResortHitmask from "@/assets/buildings/resume-resort/resume-resort-hitmask.webp";
+import resumeResortSmoke from "@/assets/buildings/resume-resort/resume-resort-smoke.webp";
+import resumeResortLights from "@/assets/buildings/resume-resort/resume-resort-light_3.webp";
+import gallery from "@/assets/buildings/gallery/gallery.webp";
+import galleryHitmask from "@/assets/buildings/gallery/gallery-hitmask.webp";
+import galleryLights from "@/assets/buildings/gallery/gallery-light.webp";
+import gallerySmoke from "@/assets/buildings/gallery/gallery-smoke.webp";
+import aboutMe from "@/assets/buildings/about-me/about-me.webp";
+import aboutMeSmoke from "@/assets/buildings/about-me/about-me-smoke.webp";
+import aboutMeLights from "@/assets/buildings/about-me/about-me-light.webp";
+import aboutMeHitmask from "@/assets/buildings/about-me/about-me-hitmask.webp";
 import BuildingLink from "@/components/BuildingLink";
 
 export default function Home() {
@@ -33,7 +32,6 @@ export default function Home() {
           <Image src={townBg} alt="" fill priority className="object-cover" />
           <Image src={deck} alt="" fill priority className="object-cover" />
           <Image src={water} alt="" fill priority className="object-cover" />
-          <Image src={lighthouseText} alt="" fill className="object-cover" />
           <Image src={lighthouse} alt="" fill className="object-cover" />
 
           <BuildingLink
