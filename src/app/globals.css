@@ -1,8 +1,13 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
+  --background: #ddf1f7;
   --foreground: #171717;
+}
+
+@theme {
+  --font-heading: var(--font-libre-baskerville), serif;
+  --font-body: var(--font-geist-sans), sans-serif;
 }
 
 @theme inline {

@@ -20,7 +20,10 @@ import BuildingLink from "@/components/BuildingLink";
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 dark:bg-black">
+    <div
+      className="flex flex-col items-center min-h-screen"
+      style={{ backgroundColor: "#568ba4" }}
+    >
       <main className="w-full">
         {/* Fixed aspect ratio keeps every child layer in proportional sync */}
         <div
@@ -35,7 +38,7 @@ export default function Home() {
           <Image src={lighthouse} alt="" fill className="object-cover" />
 
           <BuildingLink
-            href="#"
+            href="/gallery"
             label="Gallery — view my projects"
             smokeSrc={gallerySmoke}
             buildingSrc={gallery}
@@ -47,7 +50,7 @@ export default function Home() {
             hitMaskSrc={galleryHitmask}
           />
           <BuildingLink
-            href="#"
+            href="/resume"
             label="Resume Resort — view my résumé"
             smokeSrc={resumeResortSmoke}
             buildingSrc={resumeResort}
