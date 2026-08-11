@@ -5,13 +5,13 @@ import Image from "next/image";
 function SkillGroup({ title, skills }: { title: string; skills: string[] }) {
   return (
     <div className="m-4 flex flex-col items-center">
-      <h3 className="text-lg  font-semibold  mb-2">{title}</h3>
+      <h3 className="text-lg text-blue-950  font-semibold  mb-2">{title}</h3>
       <div className="flex flex-wrap gap-2">
         {skills.map((skill) => (
           <span
             key={skill}
-            className="rounded-md border-2 border-[#E5989B] border-bs-[#FFB4A2]
-           border-be-[#B5838D] px-3 py-1 text-md bg-white/80"
+            className="rounded-md border-2 border-white
+ px-3 py-1 text-md  bg-white/80 dark:bg-blue-950"
           >
             {skill}
           </span>
