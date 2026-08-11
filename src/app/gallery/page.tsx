@@ -4,7 +4,7 @@ import townBg from "@/assets/scene/portfolio_town_bg_01.webp";
 export default function gallery() {
   return (
     <main>
-      <div className="m-10 items-center min-h-screen">
+      <div className="flex m-10 items-center justify-center min-h-screen">
         <GalleryItem
           imageSrc={townBg}
           title={"Scal-Sk8 Website Revamp"}
