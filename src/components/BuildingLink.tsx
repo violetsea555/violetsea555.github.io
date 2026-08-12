@@ -17,9 +17,9 @@ type BuildingLinkProps = {
   buildingSrc: StaticImageData;
   windowsLitSrc?: StaticImageData;
   hitMaskSrc: StaticImageData;
-  left: string;
-  top: string;
-  width: string;
+  left?: string;
+  top?: string;
+  width?: string;
   aspectRatio: string;
 };
 
@@ -100,9 +100,16 @@ export default function BuildingLink({
     },
     [hitMaskSrc.src, smokeSrc.src, href, router],
   );
+  const isPositioned = left !== undefined;
 
   return (
-    <div ref={boxRef} className="absolute" style={{ left, top, width }}>
+    <div
+      ref={boxRef}
+      className={isPositioned ? "absolute" : "relative w-40 mx-auto"}
+      style={
+        isPositioned ? { left, top, width } : width ? { width } : undefined
+      }
+    >
       <div
         className="relative w-full pointer-events-none"
         style={{ aspectRatio }}

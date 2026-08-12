@@ -4,7 +4,7 @@ import Image from "next/image";
 
 function SkillGroup({ title, skills }: { title: string; skills: string[] }) {
   return (
-    <div className="m-4 flex flex-col items-center">
+    <div className="m-3 flex flex-col items-center">
       <h3 className="text-lg text-blue-950  font-semibold  mb-2">{title}</h3>
       <div className="flex flex-wrap gap-2">
         {skills.map((skill) => (
@@ -41,7 +41,7 @@ export default function Resume() {
         }}
       />
       <div className="flex flex-col relative z-10 items-center">
-        <h1 className="mt-8 text-5xl font-heading text-[#DDF1F7]">
+        <h1 className="mt-8 max-sm:ml-2 text-5xl font-heading text-[#DDF1F7]">
           Resume Highlights
         </h1>
         <p className="mt-4 text-[#DDF1F7]">
