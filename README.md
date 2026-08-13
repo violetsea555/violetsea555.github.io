@@ -11,7 +11,7 @@ Gallery - Project Gallery
 Resume - Highlights from my resume. Please connect with me via [LinkedIn](
 www.linkedin.com/in/avioletliu) for my full CV.
 
-About Me - Lore Drop 
+About Me - Lore Drop ʕっ•ᴥ•ʔっ💕
 
 ### Technical Process
 
