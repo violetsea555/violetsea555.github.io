@@ -82,7 +82,10 @@ export default function Resume() {
             "collaborating across globally distributed teams",
           ]}
         />
-        <SkillGroup title="Currently Learning" skills={["Agentic Coding"]} />
+        <SkillGroup
+          title="Currently Learning"
+          skills={["Agentic Coding", "Cybersecurity"]}
+        />
       </div>
     </div>
   );

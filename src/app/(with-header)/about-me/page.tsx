@@ -1,5 +1,5 @@
 // import catCake from "@/assets/catcake.png";
-import coffeeCats from "@/assets/coffeecats.gif";
+import coffeeCats from "@/assets/coffeeCats.gif";
 import GalleryItem from "@/components/GalleryItem";
 export default function AboutMe() {
   return (
