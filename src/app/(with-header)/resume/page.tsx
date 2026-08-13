@@ -82,7 +82,7 @@ export default function Resume() {
             "collaborating across globally distributed teams",
           ]}
         />
-        <SkillGroup title="Currently Learning" skills={["Godot"]} />
+        <SkillGroup title="Currently Learning" skills={["Agentic Coding"]} />
       </div>
     </div>
   );

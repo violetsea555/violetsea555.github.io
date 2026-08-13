@@ -10,13 +10,15 @@ Gallery - Project Gallery
 
 Resume - Highlights from my resume. Please connect with me via LinkedIn for my full CV.
 
-About Me - Everything else
+About Me - Hear my story
 
 ### Technical Process
 
 Assets - Sketched by hand, developed into assets in AutoDesk Sketchbook, converted from png -> webp for optimization in https://squoosh.app/ .
 
 Performance Analysis - Page performance and accessibility analyzed via Lighthouse report.
+
+Interaction — Custom hit-testing via pixel alpha values on a dedicated hitmask layer, so clickable areas match each building's actual illustrated silhouette rather than its rectangular bounding box.
 
 Animation - smoke animation via keyframe animation
 
