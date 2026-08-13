@@ -8,13 +8,14 @@ The beautiful thing about this digital space? I can build my own beach house.
 
 Gallery - Project Gallery
 
-Resume - Highlights from my resume. Please connect with me via LinkedIn for my full CV.
+Resume - Highlights from my resume. Please connect with me via [LinkedIn](
+www.linkedin.com/in/avioletliu) for my full CV.
 
-About Me - Hear my story
+About Me - Lore Drop 
 
 ### Technical Process
 
-Assets - Sketched by hand, developed into assets in AutoDesk Sketchbook, converted from png -> webp for optimization in https://squoosh.app/ .
+Assets - 100% Human Made. Sketched by hand, developed into assets in AutoDesk Sketchbook, converted from png -> webp for optimization in https://squoosh.app/ .
 
 Performance Analysis - Page performance and accessibility analyzed via Lighthouse report.
 
