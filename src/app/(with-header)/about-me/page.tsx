@@ -1,4 +1,4 @@
-import coffeeCats from "@/assets/coffeeCats.gif";
+import coffeeCats from "@/assets/coffeecats.gif";
 import GalleryItem from "@/components/GalleryItem";
 export default function AboutMe() {
   return (
