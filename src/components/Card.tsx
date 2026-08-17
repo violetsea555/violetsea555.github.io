@@ -12,7 +12,7 @@ type CardProps = {
 };
 export default function Card(props: CardProps) {
   return (
-    <div className="flex flex-col p-4  bg-white dark:bg-sky-950 rounded-[14px] shadow-sm w-[65vw]">
+    <div className="flex flex-col mx-auto md:p-4 p-4 bg-white dark:bg-sky-950 rounded-[14px] shadow-sm w-[92vw]  sm:w-[75vw] md:w-[65vw]">
       <div className="flex flex-col border-2  border-[#ddf1f7]  bg-white dark:bg-sky-950 rounded-lg p-4 items-center">
         <div className={`max-w-xl ${props.imageWidth ? props.imageWidth : ""}`}>
           {props.imageSrc && (

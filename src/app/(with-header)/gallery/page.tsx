@@ -5,7 +5,7 @@ import scalSk8 from "@/assets/scal-sk8.jpg";
 export default function gallery() {
   return (
     <main>
-      <div className="flex flex-col gap-4 m-10 items-center justify-center min-h-screen">
+      <div className="flex flex-col mt-4 gap-y-4 items-center justify-center min-h-screen">
         <Card
           imageSrc={townBg}
           title={"Portfolio Town - Behind the Scenes"}
