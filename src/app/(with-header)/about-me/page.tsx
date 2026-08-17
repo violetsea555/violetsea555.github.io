@@ -1,11 +1,11 @@
 import coffeeCats from "@/assets/coffeecats.gif";
-import GalleryItem from "@/components/GalleryItem";
+import Card from "@/components/Card";
 export default function AboutMe() {
   return (
     <main className="flex w-full">
       <div className="flex flex-col flex-1 items-center justify-center dark:bg-black">
         <div className="flex flex-col gap-4 m-10 items-center justify-center min-h-screen">
-          <GalleryItem
+          <Card
             imageSrc={coffeeCats}
             imageWidth="w-[25vw]"
             description={
@@ -28,7 +28,7 @@ export default function AboutMe() {
                 </a>
               </div>
             }
-          ></GalleryItem>
+          ></Card>
         </div>
       </div>
     </main>

@@ -1,4 +1,4 @@
-import GalleryItem from "@/components/GalleryItem";
+import Card from "@/components/Card";
 import townBg from "@/assets/scene/portfolio_town_bg_01.webp";
 import scalSk8 from "@/assets/scal-sk8.jpg";
 
@@ -6,7 +6,7 @@ export default function gallery() {
   return (
     <main>
       <div className="flex flex-col gap-4 m-10 items-center justify-center min-h-screen">
-        <GalleryItem
+        <Card
           imageSrc={townBg}
           title={"Portfolio Town - Behind the Scenes"}
           description={
@@ -26,7 +26,7 @@ export default function gallery() {
             </>
           }
         />
-        <GalleryItem
+        <Card
           imageSrc={scalSk8}
           title={"Scal-Sk8.org Website Redesign"}
           description={

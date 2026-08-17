@@ -2,7 +2,7 @@ import { StaticImageData } from "next/image";
 import Image from "next/image";
 import { ReactElement } from "react";
 
-type GalleryItemProps = {
+type CardProps = {
   title?: string;
   href?: string;
   imageWidth?: string;
@@ -10,7 +10,7 @@ type GalleryItemProps = {
   frameSrc?: StaticImageData;
   description: string | ReactElement;
 };
-export default function GalleryItem(props: GalleryItemProps) {
+export default function Card(props: CardProps) {
   return (
     <div className="flex flex-col p-4  bg-white dark:bg-sky-950 rounded-[14px] shadow-sm w-[65vw]">
       <div className="flex flex-col border-2  border-[#ddf1f7]  bg-white dark:bg-sky-950 rounded-lg p-4 items-center">
